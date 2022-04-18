@@ -14,4 +14,4 @@ app.get('/:name', (req, res) => {
 	res.json(recipes[req.params.name]);
 })
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 5000);

@@ -8,11 +8,11 @@ const recipes = {
 }
 
 app.get('/', (req, res) => {
-	res.send(recipes);
+	res.json(recipes);
 })
 
 app.get('/:name', (req, res) => {
-	res.send(recipes[req.params.name]);
+	res.json(recipes[req.params.name]);
 })
 
 app.listen(process.env.PORT || 5000);

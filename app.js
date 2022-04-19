@@ -6,12 +6,12 @@ require('dotenv').config();
 app.use(cors());
 
 const recipes = {
-	cookie: { ingredients: 'whaat' },
-	cake: { ingredients: 'whaat' },
-	chocolate: { ingredients: 'whaat' },
-	bubbleGum: { ingredients: 'whaat' },
-	ginger: { ingredients: 'whaat' },
-	rootBeer: { ingredients: 'whaat' }
+	cookie: { ingredients: ['whaat', 'well'] },
+	cake: { ingredients: ['whaat', 'well'] },
+	chocolate: { ingredients: ['whaat', 'well'] },
+	bubbleGum: { ingredients: ['whaat', 'well'] },
+	ginger: { ingredients: ['whaat', 'well'] },
+	rootBeer: { ingredients: ['whaat', 'well'] }
 }
 
 app.get('/', (req, res) => {

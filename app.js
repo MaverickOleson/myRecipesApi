@@ -7,7 +7,11 @@ app.use(cors());
 
 const recipes = {
 	cookie: { ingredients: 'whaat' },
-	cake: { ingredients: 'whaat' }
+	cake: { ingredients: 'whaat' },
+	chocolate: { ingredients: 'whaat' },
+	bubbleGum: { ingredients: 'whaat' },
+	ginger: { ingredients: 'whaat' },
+	rootBeer: { ingredients: 'whaat' }
 }
 
 app.get('/', (req, res) => {

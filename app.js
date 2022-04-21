@@ -32,7 +32,7 @@ const recipes = {
 		types: ['glutenFree', 'neutral']
 	},
 	'Root Beer': {
-		ingredient: ['4 quarts cold water', '2-3 cups granulated sugar, depending on desired sweetness', '3 tablespoons root beer extract', '1-2 pounds food-grade dry ice broken into pieces'],
+		ingredients: ['4 quarts cold water', '2-3 cups granulated sugar, depending on desired sweetness', '3 tablespoons root beer extract', '1-2 pounds food-grade dry ice broken into pieces'],
 		instructions: ['In a large pitcher, stir together the water, sugar, and root beer extract until the sugar is dissolved, and test test for more extract or sugar', 'In a well ventilated, carefully add the dry ice to the pitcher using insulated gloves or tongs, and stir with a long spoon', 'Continue stirring until dry ice is melted'],
 		types: ['glutenFree', 'cold']
 	}
